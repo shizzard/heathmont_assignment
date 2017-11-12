@@ -15,3 +15,6 @@ import_config "../apps/*/config/config.exs"
 #       level: :info,
 #       format: "$date $time [$level] $metadata$message\n",
 #       metadata: [:user_id]
+config :logger,
+  backends: [:console],
+  compile_time_purge_level: :info

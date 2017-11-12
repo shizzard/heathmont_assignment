@@ -1,6 +1,5 @@
 defmodule ExBankingUserTest do
   use ExUnit.Case
-  alias ExBanking.Account
   alias ExBanking.User
   doctest ExBanking.User
 
